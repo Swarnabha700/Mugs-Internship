@@ -2,6 +2,10 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
+# Portfolio Landing Page
+
+This is a portfolio landing page with responsive design and made with latest technology Next JS.
+
 First, run the development server:
 
 ```bash
