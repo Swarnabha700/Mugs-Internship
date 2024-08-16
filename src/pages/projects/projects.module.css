@@ -1,0 +1,121 @@
+.container{
+    padding-top: 5px 0;
+    text-align: center;
+    width: 1536px;
+    margin: auto;
+}
+
+.heading{
+    font-size: 60px;
+    line-height: 40%;
+}
+
+.desc{
+    font-size: 20px;
+    width: 60%;
+    letter-spacing: 0.5px;
+    margin: auto;
+}
+
+.designs{
+    width: 60%;
+    margin:auto;
+    display: flex ;
+    justify-content: space-evenly;
+    padding: 60px 0px;
+    padding-bottom: 80px;
+}
+
+.design{
+    cursor: pointer;
+    font-size: 22px;
+    letter-spacing: 0.5px;
+    background-color: rgba(248, 248, 248, 1);
+    padding: 10px 20px;
+    border: 0.4px solid rgb(165, 165, 165);
+    border-radius: 10px;
+}
+
+#web{
+    background-color: rgba(253, 111, 0, 1);
+    color: white;
+}
+
+.projects{
+    display: flex;
+    width: 100%;
+    margin: auto;
+    justify-content: space-evenly;
+}
+
+.details{
+    padding: 10px 0;
+}
+
+.type{
+    text-align: left;
+    font-size: 18px;
+    color: rgba(253, 111, 0, 1);
+}
+
+.title{
+    font-size: 20px;
+    font-weight: 800;
+    text-align: left;
+}
+
+@media (max-width: 480px){
+    .container{
+        width: auto;
+        margin: auto;
+    }
+
+    .heading{
+        font-size: 40px;
+    }
+
+    .desc{
+        width: 80%;
+        font-size: 16px;
+        margin: auto;
+    }
+
+    .design{
+        cursor: pointer;
+        font-size: 15px;
+        background-color: rgba(248, 248, 248, 1);
+        padding: 5px 10px;
+        border: 0.4px solid rgb(165, 165, 165);
+        border-radius: 10px;
+    }
+
+    .designs{
+        width: 90%;
+        margin:auto;
+        gap: 4px;
+        display: flex ;
+        justify-content: space-evenly;
+        padding: 20px 0px;
+        padding-bottom: 50px;
+    }
+
+    .projects{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        justify-content: space-evenly;
+    }
+
+    .imgSize{
+        width: 400px;
+        height: 400px;
+    }
+
+    .type{
+        text-align: center;
+    }
+
+    .title{
+        text-align: center;
+    }
+}

@@ -1,0 +1,127 @@
+.container {
+    padding-top: 40px;
+    display: flex;
+    gap: 130px;
+    align-items: center;
+    position: relative;
+    width: 1536px;
+    margin: auto;
+}
+
+.text {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 0%;
+    font-weight: 800;
+}
+
+.title {
+    line-height: 10px;
+    font-weight: bolder;
+}
+
+.name {
+    color: rgba(253, 111, 0, 1);
+    font-size: 35px;
+}
+
+.left {
+    font-size: 104px;
+    text-align: left;
+    letter-spacing: 3%;
+    font-weight: 700;
+}
+
+.right {
+    font-size: 104px;
+    text-align: right;
+    letter-spacing: 3%;
+    font-weight: 900;
+}
+
+.desc {
+    font-size: 22px;
+    line-height: normal;
+    text-align: justify;
+    font-weight: normal;
+}
+
+.hireBtn {
+    width: 200px;
+    background-color: rgba(253, 111, 0, 1);
+    padding: 15px 20px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.imgContainer {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;
+}
+
+.socials {
+    display: flex;
+    gap: 22px;
+}
+
+.icon{
+    cursor: pointer;
+}
+.rectangle{
+    position: absolute;
+    top: 120px;
+    right: 120px;
+    width: 310px;
+    height: 70px;
+    background-color: rgba(253, 111, 0, 1);
+    opacity: 60%;
+}
+
+@media (max-width: 480px) {
+    .container{
+        margin: auto;
+        width: auto;
+    }
+    .text{
+        text-align: center;
+        line-height: 0%;
+    }
+
+    .title{
+        line-height: 30px;
+    }
+    .left{
+        text-align: center;
+        font-size: 60px;
+    }
+    .right{
+        text-align: center;
+        font-size: 60px;
+    }
+    .desc{
+        text-align: center;
+        width: 80%;
+        font-size: 16px;
+        margin: auto;
+    }
+    .imgContainer {
+        display: none;
+    }
+    .rectangle{
+        display: none;
+    }
+    .navbar{
+        display: none;
+    }
+    .hireBtn{
+        margin: 20px auto;
+    }
+  }

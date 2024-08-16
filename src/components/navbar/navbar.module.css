@@ -1,0 +1,51 @@
+.container{
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 10px 0px;
+    width: 1536px;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 45px;
+    font-weight: 300;
+}
+
+.navbar{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.tabs{
+    text-decoration: none;
+    font-size: 21px;
+    color: black;
+}
+
+.cvbtn{
+    padding: 15px 20px;
+    border-radius: 5px;
+    color: white;
+    font-size: 25px;
+    background-color: rgba(253, 111, 0, 1);
+    border: none;
+    cursor: pointer;
+}
+
+@media (max-width: 480px) {
+    .container{
+        justify-content: center;
+        width: auto;
+        margin: auto;
+    }
+
+    .navbar{
+        display: none;
+    }
+  }
